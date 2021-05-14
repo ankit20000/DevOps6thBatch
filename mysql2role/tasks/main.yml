@@ -1,0 +1,7 @@
+---
+# tasks file for mysqldb
+
+- include: install_mysql.yml
+- include: start_mysql.yml
+- include: mysql_user_passwd.yml
+- include: mysql_dbname.yml

@@ -1,0 +1,8 @@
+---
+# vars file for mysqldb dbuser: admin
+   
+ dbuser: narasimha
+ dbpass: narasimha123
+ dbname: narasimha_mysqldb
+
+

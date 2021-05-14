@@ -1,0 +1,8 @@
+---
+# vars file for mysqldb dbuser: admin
+   
+ dbuser: ankit
+ dbpass: ankit123
+ dbname: ankit_mysqldb
+
+

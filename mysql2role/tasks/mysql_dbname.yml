@@ -1,0 +1,5 @@
+---
+  - name: create mysql database name
+    mysql_db:
+      name: "{{dbname}}"
+      state: present

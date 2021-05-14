@@ -1,0 +1,11 @@
+---
+  - name: installing mysql service and depandencies
+    package:
+      name: "{{item}}"
+      state: present
+      update_cache: yes
+    loop:
+       - mysql-server
+       - mysql-client
+       - python-mysqldb
+       - libmysqlclient-dev

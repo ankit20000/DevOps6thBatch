@@ -1,0 +1,7 @@
+---
+  - name: creating mysql user and password
+    mysql_user:
+        name: "{{dbuser}}"
+        password: "{{dbpass}}"
+        priv: '*.*:ALL'
+        state: present
